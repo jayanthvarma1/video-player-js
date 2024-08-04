@@ -137,8 +137,6 @@ let fullscreen = false;
 // Toggle Fullscreen
 function toggleFullscreen() {
   !fullscreen ? openFullscreen(player) : closeFullscreen();
-      
-  }
   fullscreen = !fullscreen;
 }
 
